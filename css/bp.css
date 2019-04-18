@@ -10,6 +10,7 @@
     -webkit-text-stroke-width: 2.2px ;
 }
 body{
+    height:100%;
     text-align: center;
     background: #F2F2F2;
     background-image: url("/pics/download.jpg");
