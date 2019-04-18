@@ -24,6 +24,7 @@ body{
 .image_box{
     width: 100%;
     margin: 0 -37.29%;
+    object-fit:cover;
 }
 .text_box{
     position: absolute;
