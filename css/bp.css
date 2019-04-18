@@ -22,7 +22,7 @@ body{
     color: white;
 }
 .image_box{
-    width: 100%;
+    width: auto;
     margin: 0 -37.29%;
 }
 .text_box{
