@@ -22,9 +22,9 @@ body{
     color: white;
 }
 .image_box{
-    width: 100%;
-    margin: 0 -37.29%;
-    object-fit:cover;
+    background:url('/pics/bp_shop3.JPG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
 }
 .text_box{
     position: absolute;
