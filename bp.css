@@ -1,0 +1,134 @@
+#bp_logo{
+    height:50px;
+}
+#welcome{
+    font-size: 85px;
+    font-family:Baskerville; 
+    color: #A8B2BF;
+    text-shadow:-4px 2px 0 #0a0e27;
+    -webkit-text-stroke:#8C1822;
+    -webkit-text-stroke-width: 2.2px ;
+}
+body{
+    text-align: center;
+    background: #F2F2F2;
+    background-image: url("/pics/download.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+}
+.homepage{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.image_box{
+    width: 100%;
+    margin: 0 -40%;
+    max-width: 100%;
+}
+h1{
+    font-size: 3em;
+}
+.text_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-family: Alternate;
+    color: #0D0D0D;
+    text-shadow:-2px 2px 0 #A8B2BF;
+}
+#top_page{
+    padding: 5em;
+}
+#phone_number{
+    font-size: 1.25em;
+    color:#26141B;
+}
+h1::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    height: 2px;
+    background: #8C1822;
+}
+h2::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    height: 2px;
+    background: #8b6f4e;
+}
+ .navbar-nav, .navbar-brand {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+.navbar-nav> li {
+    display: inline-block;
+    float:none;
+    color:red;
+}
+#beverages , #food{
+    font-size: 2em;
+    text-align: center;
+    margin: center;
+}
+#beverages::after , #food::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    height: 2px;
+    background: #8b6f4e;
+}
+#food::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    height: 2px;
+    background: #8b6f4e;
+}
+#footer_content{
+    color: #F2F2F2;
+    font-family: Baskerville;
+    font-size: 1.5em;
+    text-align: left;
+}
+#footer_p_tag{
+    color: #F2F2F2;
+    font-family: Baskerville;
+    font-size: 1em;
+    text-align: left;
+}
+footer{
+    background:#0D0D0D;
+}
+.footer_container{
+    padding-top: 50px;
+    width: auto;
+    padding-left: 10%;
+}
+#footer_p_tag2{
+    color: #F2F2F2;
+    font-family: Baskerville;
+    font-size: 1em;
+    text-align: center;
+}
+#footer_content2{
+    color: #F2F2F2;
+    font-family: Baskerville;
+    font-size: 1.5em;
+    text-align: center;
+}
+.footer_copy{
+    color: #F2F2F2;
+}
