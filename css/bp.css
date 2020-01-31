@@ -22,9 +22,12 @@ body{
     color: white;
 }
 .image_box{
-    background:url('/pics/bp_shop3.JPG') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    width: 100%;
+    margin: 0 -40%;
+    max-width: 100%;
+}
+h1{
+    font-size: 3em;
 }
 .text_box{
     position: absolute;
@@ -42,10 +45,7 @@ body{
     font-size: 1.25em;
     color:#26141B;
 }
-#beverages{
-    color:;
-}
-h1::after{
+h1::before{
     content: '';
     position: absolute;
     bottom: 0;
@@ -63,13 +63,6 @@ h2::after{
     height: 2px;
     background: #8b6f4e;
 }
-#text1{
-    opacity: 0;
-    transition: all 0.5s;
-}
- #box1:hover #text1{
-    opacity: 1;
- }
  .navbar-nav, .navbar-brand {
     float:none;
     margin:0 auto;
@@ -80,4 +73,62 @@ h2::after{
     display: inline-block;
     float:none;
     color:red;
+}
+#beverages , #food{
+    font-size: 2em;
+    text-align: center;
+    margin: center;
+}
+#beverages::after , #food::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    height: 2px;
+    background: #8b6f4e;
+}
+#food::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    height: 2px;
+    background: #8b6f4e;
+}
+#footer_content{
+    color: #F2F2F2;
+    font-family: Baskerville;
+    font-size: 1.5em;
+    text-align: left;
+}
+#footer_p_tag{
+    color: #F2F2F2;
+    font-family: Baskerville;
+    font-size: 1em;
+    text-align: left;
+}
+footer{
+    background:#0D0D0D;
+}
+.footer_container{
+    padding-top: 50px;
+    width: auto;
+    padding-left: 10%;
+}
+#footer_p_tag2{
+    color: #F2F2F2;
+    font-family: Baskerville;
+    font-size: 1em;
+    text-align: center;
+}
+#footer_content2{
+    color: #F2F2F2;
+    font-family: Baskerville;
+    font-size: 1.5em;
+    text-align: center;
+}
+.footer_copy{
+    color: #F2F2F2;
 }
