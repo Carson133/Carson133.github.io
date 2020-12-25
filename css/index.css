@@ -1,0 +1,54 @@
+body{
+    background-image: url(/pics/giphy.gif);
+    background-size: cover;
+}
+
+#container{
+    width:3000px;
+    height: 2000px;
+}
+
+#title{
+    background-color: #210d08;
+    text-align: left;
+    padding: 20px 0px 20px 50px;
+}
+
+#logo{
+    display: inline;
+    margin: auto;
+    width: auto;
+    padding: 0 0 0 3% ;
+}
+
+#title h1{
+    color: #e8e4d3;
+    font-family: Arial;
+}
+
+#website-links{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#main-links{
+    background-color: #210d08;
+}
+
+#main-links a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    color: #e8e4d3;
+}
+
+#text-links{
+    display: inline-block;
+}
+
+#text-links:hover{
+    background-color: black;
+}
+
